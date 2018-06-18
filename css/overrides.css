@@ -1,0 +1,38 @@
+/*********************************************
+ * OVERRIDES
+ *********************************************/
+
+.animation {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.reveal {
+    background-image: none;
+}
+.reveal .slides {
+    background-color: #F3ECDB;
+}
+.reveal .links a img.logo {
+    width: 45px;
+    margin: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+    position:  relative;
+    top: 7px;
+}
+.reveal .links a {
+    margin: 0 20px;
+    display: inline-block
+}
+.reveal a {
+    color: #E6187D;
+}
+.reveal span.chars {
+    font-size: 200px;
+}

@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Conferences 2018</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/beige.css">
+        <link rel="stylesheet" href="css/overrides.css">
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+        <div class="animation">
+            <canvas id="canvas"></canvas>
+            <div class="canvas-text-container">
+                <div class="canvas-big-text"></div>
+                <div class="canvas-text"></div>
+            </div>
+        </div>
+		<div class="reveal">
+			<div class="slides">
+                <section>
+                    <h2>Short retrospective of<br/>Front-end Conferences 2018</h2>
+                </section>
+                <section data-transition="slide-in fade-out">
+                    <h3>Front-trends, Warsaw 2018</h3>
+                    <img src="https://pbs.twimg.com/profile_banners/129789607/1463845896/1500x500"/>
+                    <p class="links">
+                        <a href="https://2018.front-trends.com/">
+                            <img class="logo" src="https://pbs.twimg.com/profile_images/798945532139995136/QB_KLK86_400x400.jpg"/>
+                        </a>
+                        <a href="https://twitter.com/fronttrends"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/channel/UCpIBwBITpXelDgDwe-16zWA"><i class="fab fa-youtube"></i></a>
+                    </p>
+                </section>
+                <section data-transition="slide-in fade-out">
+                    <h3>JSConf & CSSConf, Berlin 2018</h3>
+                    <img src="https://cdn-images-1.medium.com/max/2000/1*A_LhAmnU38OYC4aRqSt5Xw.jpeg" width="85%"/>
+                    <p class="links">
+                        <a href="https://2018.jsconf.eu/">
+                            <img class="logo" src="https://2018.jsconf.eu/immutable/b2bdc4ffade7865a4b368a1a251d3fb499914d21/svg/jsconf-heart.svg"/>
+                        </a>
+                        <a href="https://twitter.com/jsconfeu"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/channel/UCzoVCacndDCfGDf41P-z0iA"><i class="fab fa-youtube"></i></a>
+                    </p>
+                </section>
+				<section data-transition="slide-in fade-out">
+                    <section><h2>JavaScript Community</h2></section>
+                </section>
+                <section data-transition="zoom">
+                    <span class="chars">😀</span>
+                    <span class="chars">❤️</span>
+                </section>
+                <section data-transition="zoom">
+                    <span class="chars">👧</span>
+                    <span class="chars">👦</span>
+                </section>
+                <section data-transition="zoom">
+                    <span class="chars">🦄</span>
+                </section>
+				<section>
+                    <h2>PWA</h2>
+                </section>
+                <section>
+                    <h2>Accessibility</h2>
+                </section>
+                <section>
+                    <h2>WebAssembly</h2>
+                </section>
+                <section>
+                    <h2>Machine Learning</h2>
+                </section>
+                <section>
+                    <h2>HTTP2/push</h2>
+                </section>
+                <section data-transition="slide-in fade-out">
+                    <h2>CSS custom properties</h2>
+                    <iframe height='265' scrolling='no' title='WyXLPK' src='//codepen.io/anetakjeldsen/embed/preview/WyXLPK/?height=265&theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/anetakjeldsen/pen/WyXLPK/'>WyXLPK</a> by Aneta Kjeldsen (<a href='https://codepen.io/anetakjeldsen'>@anetakjeldsen</a>) on <a href='https://codepen.io'>CodePen</a>.
+                    </iframe>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        ## Page title
+                        A paragraph with some text and a [link](http://hakim.se).
+                    </textarea>
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit »S« on your keyboard).
+					</aside>
+                </section>
+                <section>
+                    <p><h2>Credits</h2></p>
+                    <p class="fragment">
+                        Images, logos, sound form conferences
+                    </p>
+                    <p class="fragment">
+                        <a href="https://github.com/hakimel/reveal.js/">HTML presentation framework</a>
+                    </p>
+                    <p class="fragment">
+                        <a href="https://github.com/mattdesl/jsconfeu-generative-visuals" >Background animation</a>
+                    </p>
+                    <p class="fragment">
+                        <a href="https://twitter.com/tejaskumar_">Inspiration for using voice recognition on presentation</a>
+                    </p>
+                </section>
+			</div>
+		</div>
+		<div class="output"></div>
+		<div class="hints"></div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+        <script src="js/animation.js"></script>
+
+		<script>
+			Reveal.initialize({
+                width: 1100,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				],
+              keyboard: {
+                13: console.log(Reveal.nextFragment()), // go to the next slide when the ENTER key is pressed
+                27: function() {}, // do something custom when ESC is pressed
+                32: null // don't do anything when SPACE is pressed (i.e. disable a reveal.js default binding)
+              }
+			});
+		</script>
+        <script>
+          var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
+          var SpeechGrammarList = SpeechGrammarList || webkitSpeechGrammarList;
+          var recognition = new SpeechRecognition();
+          var speechRecognitionList = new SpeechGrammarList();
+          recognition.grammars = speechRecognitionList;
+          recognition.lang = 'en-US';
+          recognition.interimResults = false;
+          recognition.maxAlternatives = 2;
+
+          recognition.start();
+
+          recognition.onresult = function(event) {
+            var title = event.results[0][0].transcript;
+            if(title.match(/warsaw/i)) {
+              Reveal.slide(1);
+            }
+            if(title.match(/berlin/i)) {
+              Reveal.slide(2);
+            }
+            if(title.match(/javascript community/i)) {
+              Reveal.slide(3);
+            }
+            if(title.match(/welcoming/i)) {
+              Reveal.slide(4);
+            }
+            if(title.match(/girls and boys/i)) {
+              Reveal.slide(5);
+            }
+            if(title.match(/unicorns/i)) {
+              Reveal.slide(6);
+            }
+            if(title.match(/progressive web apps/i)) {
+              Reveal.slide(7);
+            }
+            console.log('Result received: ' + title);
+          }
+          recognition.onend = function() {
+            recognition.start();
+          }
+        </script>
+	</body>
+</html>
